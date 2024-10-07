@@ -1,4 +1,4 @@
-let input = require('fs').readFileSync('example.txt').toString().split('\n')
+let input = require('fs').readFileSync('/dev/stdin').toString().split('\n')
 
 const N = Number(input[0].split(' ')[0])
 const X = Number(input[0].split(' ')[1])
