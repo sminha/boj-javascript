@@ -1,4 +1,4 @@
-let [N, input, v] = require('fs').readFileSync('example.txt').toString().split('\n')
+let [N, input, v] = require('fs').readFileSync('/dev/stdin').toString().split('\n')
 
 N = Number(N)
 v = Number(v)
