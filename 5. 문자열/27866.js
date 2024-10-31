@@ -1,4 +1,4 @@
-let [S, i] = require('fs').readFileSync('example.txt').toString().split('\n')
+let [S, i] = require('fs').readFileSync('/dev/stdin').toString().split('\n')
 
 i = Number(i)
 
