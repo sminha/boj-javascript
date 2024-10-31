@@ -1,4 +1,4 @@
-let input = require('fs').readFileSync('example.txt').toString()
+let input = require('fs').readFileSync('/dev/stdin').toString()
 
 input = Number(input)
 
