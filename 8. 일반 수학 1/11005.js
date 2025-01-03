@@ -1,4 +1,4 @@
-let [N, B] = require('fs').readFileSync('example.txt').toString().split(' ').map(Number)
+let [N, B] = require('fs').readFileSync('/dev/stdin').toString().split(' ').map(Number)
 
 let exponent = 0
 
